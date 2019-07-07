@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/punk-beers-catalogue/static/css/main.c4db1b56.chunk.css",
+    "main.js": "/punk-beers-catalogue/static/js/main.1d3e3d33.chunk.js",
+    "main.js.map": "/punk-beers-catalogue/static/js/main.1d3e3d33.chunk.js.map",
+    "runtime~main.js": "/punk-beers-catalogue/static/js/runtime~main.d9b0e77b.js",
+    "runtime~main.js.map": "/punk-beers-catalogue/static/js/runtime~main.d9b0e77b.js.map",
+    "static/js/2.83eb5c95.chunk.js": "/punk-beers-catalogue/static/js/2.83eb5c95.chunk.js",
+    "static/js/2.83eb5c95.chunk.js.map": "/punk-beers-catalogue/static/js/2.83eb5c95.chunk.js.map",
+    "index.html": "/punk-beers-catalogue/index.html",
+    "precache-manifest.831ce2fe6ec8540b37f0174f27ab273e.js": "/punk-beers-catalogue/precache-manifest.831ce2fe6ec8540b37f0174f27ab273e.js",
+    "service-worker.js": "/punk-beers-catalogue/service-worker.js",
+    "static/css/main.c4db1b56.chunk.css.map": "/punk-beers-catalogue/static/css/main.c4db1b56.chunk.css.map"
+  }
+}
