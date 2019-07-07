@@ -10,10 +10,15 @@ export const Layout = styled.main`
   color: ${Color.GREY};
 `;
 
-export const Title = styled.h2`
+export const Title = styled.h1`
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
+  padding: 0 1em;
+  
+  @media (min-width: 959px) {
+    text-align: left;
+  }
 `;
 
 export const Button = styled.button`
@@ -72,13 +77,10 @@ export const Loader = styled.div`
   top: 0;
   bottom: 0;
   right: 0;
-  display: flex;
+  display: ${props => props.show ? 'flex' : 'none'};
   justify-content: center;
   align-items: center;
-  background-color: ${Color.GREY};
-  transition: all 0.35s;
-  opacity: ${props => props.show ? '0.6' : '0'};
-  transform: ${props => props.show ? 'scale(1)' : 'scale(0)'};
+  background-color: rgba(255, 255, 255, 0.85);
   z-index: 10;
 
   &::before {
@@ -86,6 +88,7 @@ export const Loader = styled.div`
     width: 30px;
     height: 30px;
     border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
     background-color: ${Color.YELLOW};
     visibility: ${props => props.show ? 'visible' : 'hidden'};
     transform: rotate(0deg);
@@ -97,6 +100,7 @@ export const Loader = styled.div`
       transform: rotateZ(360deg);
       width: 90px;
       height: 90px;
+      box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.4);
     }
   }
 `;

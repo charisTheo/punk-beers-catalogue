@@ -56,23 +56,26 @@ export const Image = styled.img`
 export const Details = styled.div`
   order: ${props => props.isExpanded ? 3 : 2};
 
+  @media (min-width: 767px) {
+    ${props => props.isExpanded ? 'flex: 1 1 50%;' : '' }
+  }
 `;
 
 export const Subtitle = styled.p`
-  margin: ${props => props.isExpanded ? '0.3rem 0' : '0.6rem 0'};
+  margin: 0.6rem 0;
   color: ${Color.BLACK};
   font-weight: 500;
 `;
  
 export const TagLine = styled.p`
   color: ${Color.GREY};
-  margin: 0.3rem 0;
+  margin: 0.6rem 0;
   font-style: italic;
   order: 4;
 `;
 
 export const Description = styled.p`
-  margin: 0.3rem 0;
+  margin: 0.6rem 0;
   color: ${Color.GREY};
   order: 5;
 `;
