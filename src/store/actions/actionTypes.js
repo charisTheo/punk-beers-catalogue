@@ -1,0 +1,5 @@
+export const SAVE_REQUESTED_BEER = 'SAVE_REQUESTED_BEER';
+export const SAVE_BEERS = 'SAVE_BEERS';
+
+export const START_UI_LOADING = 'START_UI_LOADING';
+export const STOP_UI_LOADING = 'STOP_UI_LOADING';
